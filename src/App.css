@@ -1,0 +1,25 @@
+.thumbnail{
+   
+    object-fit: scale-down;
+}
+
+.desktop-header {
+    display: none;
+  }
+  
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media(min-width: 768px) {
+    .mobile-header {
+      display: none;
+    }
+    
+    .desktop-header {
+      display: block;
+    }
+  }
+  

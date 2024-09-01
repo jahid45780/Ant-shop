@@ -71,7 +71,7 @@ const Products = () => {
 
 
          <div className=" flex items-center justify-center gap-4 " >
-        <Typography.Text style={{fontFamily:"sans-serif", fontSize:30,}} > View Items Sorted By ❤ </Typography.Text>
+        <Typography.Text style={{fontFamily:"cursive", fontSize:30,}} > View Items Sorted By ❤ </Typography.Text>
         <Select
           className=" w-60 text-center"
           onChange={(value) => {

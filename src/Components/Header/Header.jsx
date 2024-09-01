@@ -176,7 +176,7 @@ const Header = () => {
       <div className=" md:block hidden" >
       <div  className="desktop-header  flex items-center justify-between max-w-6xl mx-auto mt-3 ">
           <Menu
-            className=" text-2xl font-bold p-3"
+            className=" text-lg font-semibold p-3"
             onClick={onMenuClick}
             mode="horizontal"
             items={[

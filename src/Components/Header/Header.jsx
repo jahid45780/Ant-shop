@@ -99,8 +99,8 @@ const Header = () => {
         //    <ShoppingCartOutlined/>
 
         // </div>
-        <div>
-        <div className="mobile-header m-6">
+        <div className=" m-6 border-s-2 border-e-2 border-black" >
+        <div className="mobile-header m-6 ">
           <Button type="primary" onClick={showDrawer} icon={<MenuOutlined />} />
           <h1 className=" text-4xl font-bold text-orange-500 shadow-2xl shadow-red-400" >Ant_Shop</h1>
           <AppCart/>
